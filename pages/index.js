@@ -31,8 +31,9 @@ export default function Recipes({ recipes }) {
       <style jsx>{`
         .recipe-list {
           display: grid;
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: repeat(3, 300px);
           grid-gap: 20px 60px;
+          justify-content: center;
         }
       `}</style>
     </div>
